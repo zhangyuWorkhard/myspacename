@@ -58,6 +58,10 @@ name = 'cscope'
 #name = 'lang#c'
 #enable_clang_syntax_highlight = true #need vim 8.0
 
+[[layers]]
+name = 'checkers'
+enable = false
+
 [[custom_plugins]]
    name = 'vim-scripts/Mark--Karkat'
    # note: you need to disable merged feature

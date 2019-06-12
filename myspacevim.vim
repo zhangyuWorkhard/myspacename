@@ -4,7 +4,8 @@ function! myspacevim#before() abort
   "cscope jump
   set cst
   "search current word
-  nmap <C-_> <Space>sh/ 
+  "nmap <C-_> <Space>sh/ 
+  nmap <C-_> <Space>sgP 
   "close current buffer
   "nmap <C-F4> <Space>bd
 endfunction
